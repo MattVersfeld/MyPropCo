@@ -8,7 +8,7 @@ import ContentAds from './components/ContentAds'
 import FooterInfo from './components/FooterInfo'
 import './App.css'
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -29,5 +29,3 @@ function App() {
     </>
   )
 }
-
-export default App
