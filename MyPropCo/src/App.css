@@ -1,0 +1,8 @@
+.nav__toolbar {
+    display: flex;
+}
+
+.nav__image {
+    margin-right: auto;
+    max-width: 10rem;
+}
