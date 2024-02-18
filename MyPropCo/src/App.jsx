@@ -36,7 +36,6 @@ export default function App() {
         <div className='content__wrapper'>
           {content}
         </div>
-
       </main>
       <footer>
         <FooterInfo></FooterInfo>
