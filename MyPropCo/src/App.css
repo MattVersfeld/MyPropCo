@@ -2,6 +2,7 @@ html {
     margin: 0px -8px !important;
 }
 
+/*Navbar and front image styling*/
 .nav__toolbar {
     display: flex;
 }
@@ -27,6 +28,8 @@ html {
     box-shadow: none !important;
 }
 
+
+/*Main page Form styling*/
 .form__wrapper {
     position: absolute;
     top: 700px;
@@ -117,6 +120,7 @@ html {
     color: #828282;
 }
 
+/*Main Text landing page styling*/
 .main__container {
     display: flex;
     flex-direction: column;
@@ -137,4 +141,57 @@ html {
     font-size: 15px;
     font-weight: normal;
     width: 625px;
+}
+
+/*Featured Property styling*/
+.featured__container {
+    display: flex;
+    width: 920px;
+    margin: 0 auto;
+    border: lightgray solid 1px;
+}
+
+.featured__info {
+    width: 250px;
+    padding: 35px;
+}
+
+.featured__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.featured__avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.carousel__container {
+    width: 100%;
+}
+
+.carousel__title {
+    text-align: center;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+.carousel__container svg {
+    fill: #FC495D;
+}
+
+.carousel__container .css-1g04gm2-MuiButtonBase-root-MuiIconButton-root {
+    background-color: transparent !important;
+}
+
+.carousel__container .css-i4bv87-MuiSvgIcon-root {
+    font-size: 75px !important;
 }
