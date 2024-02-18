@@ -3,7 +3,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
 export default function ContentAds(props) {
-    const { image, backImage, title, text } = props;
+    const { image, setup, punch, title, text } = props;
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleClick = () => {
@@ -38,10 +38,10 @@ export default function ContentAds(props) {
                         title="Back Image"
                     />
                     <Typography sx={{ textAlign: 'center' }} gutterBottom variant="h4" component="div">
-                        Why do developers prefer dark mode?
+                        {setup}
                     </Typography>
                     <Typography sx={{ textAlign: 'center' }} variant="body2" color="text.secondary">
-                        Light attracts bugs!
+                        {punch}
                     </Typography>
                 </div>
             </div>

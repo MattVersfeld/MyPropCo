@@ -53,18 +53,33 @@ export const contentData = [
         id: '1',
         image: './src/assets/CTA1.png',
         title: 'Mortgage Calculator',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        joke: 'Why do developers prefer dark mode?',
+        punch: 'Light attracts bugs!',
     },
     {
         id: '2',
         image: './src/assets/CTA2.png',
         title: 'Contact Us',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        joke: 'Why did the JavaScript code break up with the CSS?',
+        punch: 'It just couldnt handle the style differences!',
     },
     {
         id: '3',
         image: './src/assets/CTA3.png',
         title: 'Follow us on Facebook',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        joke: 'Why did the React developer always carry around a map?',
+        punch: 'To navigate through the virtual DOM!',
+    }
+]
+
+export const carouselItems = [
+    {
+        image: './src/assets/headerimage1.png'
+    },
+    {
+        image: './src/assets/headerimage2.jpg'
     }
 ]

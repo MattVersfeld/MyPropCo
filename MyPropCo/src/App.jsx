@@ -1,4 +1,5 @@
-import Navbar from './components/Navbar'
+import NavbarTop from './components/NavbarTop'
+import 'bootstrap/dist/css/bootstrap.css';
 import Hero from './components/Hero'
 import SearchForm from './components/SearchFrom'
 import MainBodyText from './components/MainBodyText'
@@ -17,16 +18,19 @@ export default function App() {
         image={item.image}
         title={item.title}
         text={item.text}
+        setup={item.joke}
+        punch={item.punch}
       />
     ))
   }
 
   const content = contentCards(contentData)
 
+
   return (
     <>
       <header>
-        <Navbar></Navbar>
+        <NavbarTop />
         <Hero></Hero>
         <SearchForm></SearchForm>
       </header>
