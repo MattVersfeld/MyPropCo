@@ -116,3 +116,25 @@ html {
 #formSuburb {
     color: #828282;
 }
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main__title {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    width: 625px;
+}
+
+.main__paragraph {
+    font-family: "Open Sans", sans-serif;
+    color: #828282;
+    font-size: 15px;
+    font-weight: normal;
+    width: 625px;
+}
