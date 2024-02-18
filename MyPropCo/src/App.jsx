@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import SearchBar from './components/SearchFrom'
+import SearchForm from './components/SearchFrom'
 import MainBodyText from './components/MainBodyText'
 import FeaturedProp from './components/FeaturedProp'
 import ContentAds from './components/ContentAds'
@@ -16,7 +16,7 @@ export default function App() {
       <header>
         <Navbar></Navbar>
         <Hero></Hero>
-        <SearchBar></SearchBar>
+        <SearchForm></SearchForm>
       </header>
       <main>
         <MainBodyText></MainBodyText>

@@ -14,14 +14,105 @@ html {
 .hero__image_max {
     margin-top: 48px;
     width: 100%;
-    max-height: 1018px;
+    max-height: 710px;
 }
 
 .hero__image_min {
     width: 100%;
-    min-height: 610px;
+    height: 500px;
+    min-height: 1018px;
 }
 
 .css-1ps6pg7-MuiPaper-root {
     box-shadow: none !important;
+}
+
+.form__wrapper {
+    position: absolute;
+    top: 700px;
+    z-index: 50;
+    width: 1000px;
+    padding: 15px;
+    background-color: rgb(25, 38, 58, 0.5);
+}
+
+.form__container_1 {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.form__container_2 {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.form__number {
+    height: 55px;
+    background-color: transparent;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.form__container_2 label,
+.form__container_2 input {
+    color: white !important;
+}
+
+.form__container_1 label {
+    color: #828282 !important;
+}
+
+.css-1viu1sz-MuiFormControl-root-MuiTextField-root {
+    margin: 0 !important;
+    border: 1px solid white !important;
+
+}
+
+.form__buy {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form__res {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form__suburb {
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.css-8b3vi8-MuiFormControl-root-MuiTextField-root {
+    margin: 0 !important;
+
+}
+
+.form__prop {
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.form__search_options {
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.css-1ttfq79-MuiFormControl-root {
+    border: 1px solid white !important;
+
+}
+
+.form_align {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#formSuburb {
+    color: #828282;
 }
