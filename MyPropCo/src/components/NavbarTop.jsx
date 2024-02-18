@@ -6,7 +6,7 @@ export default function NavbarTop() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary navbar-background navbar-dark">
             <Container className='navbar-container'>
-                <Navbar.Brand href="#home"><img src="./src/assets/logo.svg" alt="My Propery Co." /></Navbar.Brand>
+                <Navbar.Brand href="#home"><img className='navbar-logo' src="./src/assets/logo.svg" alt="My Propery Co." /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className='navbar-spacing' id="basic-navbar-nav">
                     <Nav className='navbar-link-container'>

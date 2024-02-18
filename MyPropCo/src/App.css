@@ -8,6 +8,10 @@
 
 }
 
+.navbar-logo {
+    max-width: 10rem;
+}
+
 .navbar-background {
     background-color: #19263A !important;
 }
@@ -27,6 +31,31 @@
     border-color: white;
 }
 
+/*Main Body Styling*/
+.main-wrapper {
+    padding: 80px 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 625px;
+}
+
+.main-title {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.main-paragraph {
+    font-family: "Open Sans", sans-serif;
+    color: #828282;
+    font-size: 15px;
+    font-weight: normal;
+}
 
 /* html {
     margin: 0px -8px !important;
@@ -151,27 +180,7 @@
 } */
 
 /*Main Text landing page styling*/
-/* .main__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
 
-.main__title {
-    font-family: "Cormorant Garamond", sans-serif;
-    font-weight: bold;
-    font-size: 35px;
-    width: 625px;
-}
-
-.main__paragraph {
-    font-family: "Open Sans", sans-serif;
-    color: #828282;
-    font-size: 15px;
-    font-weight: normal;
-    width: 625px;
-} */
 
 /*Featured Property styling*/
 /* .featured__container {

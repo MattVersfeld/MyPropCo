@@ -32,17 +32,17 @@ export default function App() {
       <header>
         <NavbarTop />
         <Hero></Hero>
-        <SearchForm></SearchForm>
+        {/* <SearchForm></SearchForm> */}
       </header>
       <main>
         <MainBodyText></MainBodyText>
-        <FeaturedCarousel></FeaturedCarousel>
+        {/* <FeaturedCarousel></FeaturedCarousel>
         <div className='content__wrapper'>
           {content}
-        </div>
+        </div> */}
       </main>
       <footer>
-        <FooterInfo></FooterInfo>
+        {/* <FooterInfo></FooterInfo> */}
       </footer>
     </>
   )
