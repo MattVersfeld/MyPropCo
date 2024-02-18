@@ -33,7 +33,6 @@ export default function FeaturedCarousel() {
                 sx={{ maxWidth: '1500px', margin: '0 auto' }}
                 autoPlay={false}
                 indicators={true}
-                animation='fade'
                 navButtonsAlwaysVisible={true}
             >
                 {properties}

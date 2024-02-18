@@ -47,3 +47,24 @@ export const featuredPropData = [
         },
     },
 ]
+
+export const contentData = [
+    {
+        id: '1',
+        image: './src/assets/CTA1.png',
+        title: 'Mortgage Calculator',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    },
+    {
+        id: '2',
+        image: './src/assets/CTA2.png',
+        title: 'Contact Us',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    },
+    {
+        id: '3',
+        image: './src/assets/CTA3.png',
+        title: 'Follow us on Facebook',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    }
+]

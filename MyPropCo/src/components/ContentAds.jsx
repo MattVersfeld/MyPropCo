@@ -1,20 +1,27 @@
 import * as React from 'react';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-export default function MediaCard() {
+
+
+export default function ContentAds(props) {
+    const { image, title, text } = props
+
     return (
-        <div>
+        <div className='content__container'>
             <CardMedia
-                sx={{ width: 300, height: 413 }}
-                image="./src/assets/CTA1.png"
+                className='content__image'
+                sx={{ width: '100%', height: 250 }}
+                image={image}
                 title="Image"
             />
-            <Typography gutterBottom variant="h4" component="div">
-                title
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-                random text
-            </Typography>
+            <div className='content__info'>
+                <Typography sx={{ textAlign: 'center' }} gutterBottom variant="h4" component="div">
+                    {title}
+                </Typography>
+                <Typography sx={{ textAlign: 'center' }} variant="body2" color="text.secondary">
+                    {text}
+                </Typography>
+            </div>
         </div>
     );
 }

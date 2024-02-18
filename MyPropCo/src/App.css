@@ -195,3 +195,28 @@ html {
 .carousel__container .css-i4bv87-MuiSvgIcon-root {
     font-size: 75px !important;
 }
+
+.content__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.content__image {
+    width: 350px;
+    height: 320px;
+}
+
+.content__info {
+    padding: 35px;
+}
+
+.content__container {
+    width: 288px;
+    margin: 15px;
+    border: lightgray solid 1px;
+}
+
+/* .content__container :hover {
+    transform: rotateY(180deg);
+} */
