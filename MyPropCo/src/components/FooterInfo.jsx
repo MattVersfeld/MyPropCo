@@ -1,5 +1,3 @@
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
 
 export default function FooterInfo() {
 

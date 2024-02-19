@@ -5,29 +5,32 @@ export default function FeaturedProp(props) {
 
     return (
         <div className='featured-card-container'>
+            <h1 className='main-title'>Featured Properties</h1>
             <Card className='featured-container'>
                 <Card.Img className='featured-image' variant="top" src={image} />
                 <Card.Body>
-                    <Card.Title className='featured-price'>{price}</Card.Title>
-                    <Card.Text className='featured-heading'>
-                        {heading}
-                    </Card.Text>
-                    <div className='featured-icons'>
-                        <img src='./src/assets/Listing-icons.svg' />
-                        <p>{bedrooms}</p>
-                        <img src='./src/assets/Listing-icons-1.svg' />
-                        <p>{bathrooms}</p>
-                        <img src='./src/assets/Listing-icons-2.svg' />
-                        <p>{garages}</p>
-                    </div>
-                    <Card.Text className='featured-description'>
-                        {description}
-                    </Card.Text>
-                    <div className='featured-avatar'>
-                        <img className='featured-avatar-image' src={avatar} alt="Agent Avatar" />
-                        <div className='featured-avatar-info'>
-                            <p>{agentName}</p>
-                            <p>{contactNum}</p>
+                    <div className='featured-body'>
+                        <Card.Title className='featured-price'>{price}</Card.Title>
+                        <Card.Text className='featured-heading'>
+                            {heading}
+                        </Card.Text>
+                        <div className='featured-icons'>
+                            <img src='./src/assets/Listing-icons.svg' />
+                            <p>{bedrooms}</p>
+                            <img src='./src/assets/Listing-icons-1.svg' />
+                            <p>{bathrooms}</p>
+                            <img src='./src/assets/Listing-icons-2.svg' />
+                            <p>{garages}</p>
+                        </div>
+                        <Card.Text className='featured-description'>
+                            {description}
+                        </Card.Text>
+                        <div className='featured-avatar'>
+                            <img className='featured-avatar-image' src={avatar} alt="Agent Avatar" />
+                            <div className='featured-avatar-info'>
+                                <p className='featured-paragraph-bold'>{agentName}</p>
+                                <p className='featured-paragraph-color'>{contactNum}</p>
+                            </div>
                         </div>
                     </div>
                 </Card.Body>

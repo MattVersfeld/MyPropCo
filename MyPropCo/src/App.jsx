@@ -6,7 +6,6 @@ import MainBodyText from './components/MainBodyText'
 import FeaturedCarousel from './components/FeaturedCarousel'
 import ContentAds from './components/ContentAds'
 import FooterInfo from './components/FooterInfo'
-import FeaturedProp from './components/FeaturedProp';
 import './App.css'
 
 export default function App() {

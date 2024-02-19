@@ -1,4 +1,7 @@
 import Form from 'react-bootstrap/Form';
+import * as React from 'react';
+import Button from '@mui/material/Button';
+import SearchIcon from '@mui/icons-material/Search';
 
 export default function SearchForm() {
     return (
@@ -40,7 +43,7 @@ export default function SearchForm() {
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </Form.Select>
-                            <button className='form-button'>Search</button>
+                            <Button className='form__button' sx={{ bgcolor: '#FC495D', width: 113, m: 1, height: 38 }} variant="contained" startIcon={<SearchIcon />}>Search</Button>
                         </div>
                     </div>
                 </div>
