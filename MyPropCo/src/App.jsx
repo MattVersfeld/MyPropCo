@@ -17,8 +17,7 @@ export default function App() {
       <header>
         <NavbarTop />
         <Hero></Hero>
-
-        {/* <SearchForm></SearchForm> */}
+        <SearchForm></SearchForm>
       </header>
       <main>
         <MainBodyText></MainBodyText>
@@ -26,7 +25,7 @@ export default function App() {
         <ContentAds />
       </main>
       <footer>
-        {/* <FooterInfo></FooterInfo> */}
+        <FooterInfo></FooterInfo>
       </footer>
     </>
   )
