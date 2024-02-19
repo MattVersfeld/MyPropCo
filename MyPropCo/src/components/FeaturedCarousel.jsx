@@ -16,7 +16,9 @@ export default function FeaturedCarousel() {
             >
 
                 {featuredPropData.map(item => (
-                    <Carousel.Item>
+                    <Carousel.Item
+                        key={item.id}
+                    >
                         <FeaturedProp
                             key={item.id}
                             price={item.price}
