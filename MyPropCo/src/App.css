@@ -126,8 +126,33 @@
     margin-bottom: -32px !important;
 }
 
+.content-container {
+    padding: 40px 40px;
+}
 
+.content-card-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-items: center;
+}
 
+.card-image {
+    scale: 1 1;
+}
+
+.card-image:hover {
+    animation: imagemove 5s infinite;
+}
+
+@keyframes imagemove {
+    50% {
+        rotate: y 180deg;
+    }
+}
+
+/*----------------------------------------- MEDIA QUERIES---------------------------------------------*/
 @media screen and (max-width: 1373px) {
 
     #featured-carousel .carousel-control-prev,
@@ -148,12 +173,37 @@
     .feature-carousel-container {
         padding: 0px 20px 100px;
     }
+
+    .content-card-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        max-width: 620px;
+        margin: 0 auto;
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .content-container {
+        padding: 40px 15px;
+    }
 }
 
 @media screen and (max-width: 781px) {
 
     .featured-card-container {
         padding: 0px 80px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .content-card-container {
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 620px;
+        margin: 0 auto;
+        justify-items: center;
+        gap: 20px;
     }
 }
 
@@ -181,45 +231,9 @@
 }
 
 
-.content-container {
-    padding: 40px 40px;
-}
 
-.content-card-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    max-width: 1000px;
-    margin: 0 auto;
-    justify-items: center;
-}
 
-@media screen and (max-width: 992px) {
 
-    .content-card-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        max-width: 620px;
-        margin: 0 auto;
-        justify-items: center;
-        gap: 20px;
-    }
-
-    .content-container {
-        padding: 40px 15px;
-    }
-}
-
-@media screen and (max-width: 680px) {
-
-    .content-card-container {
-        display: grid;
-        grid-template-columns: auto;
-        max-width: 620px;
-        margin: 0 auto;
-        justify-items: center;
-        gap: 20px;
-    }
-}
 
 /* html {
     margin: 0px -8px !important;

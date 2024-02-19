@@ -8,7 +8,7 @@ export default function ContentAds() {
             <div className='content-card-container'>
                 {contentData.map(items => (
                     <Card key={items.id} style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={items.image} />
+                        <Card.Img className='card-image' variant="top" src={items.image} />
                         <Card.Body>
                             <Card.Title>{items.title}</Card.Title>
                             <Card.Text>
