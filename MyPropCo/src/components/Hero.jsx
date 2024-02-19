@@ -13,7 +13,9 @@ export default function Hero() {
             data-bs-theme="dark"
         >
             {carouselItems.map(item => (
-                <Carousel.Item >
+                <Carousel.Item
+                    key={item.id}
+                >
                     <img
                         className="d-block w-100"
                         src={item.image}

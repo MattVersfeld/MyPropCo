@@ -77,9 +77,11 @@ export const contentData = [
 
 export const carouselItems = [
     {
+        id: 1,
         image: './src/assets/headerimage1.png'
     },
     {
+        id: 2,
         image: './src/assets/headerimage2.jpg'
     }
 ]

@@ -6,25 +6,10 @@ import MainBodyText from './components/MainBodyText'
 import FeaturedCarousel from './components/FeaturedCarousel'
 import ContentAds from './components/ContentAds'
 import FooterInfo from './components/FooterInfo'
-import { contentData } from './data/data'
+import FeaturedProp from './components/FeaturedProp';
 import './App.css'
 
 export default function App() {
-
-  const contentCards = (props) => {
-    return props.map(item => (
-      <ContentAds
-        key={item.id}
-        image={item.image}
-        title={item.title}
-        text={item.text}
-        setup={item.joke}
-        punch={item.punch}
-      />
-    ))
-  }
-
-  const content = contentCards(contentData)
 
 
   return (
@@ -32,14 +17,13 @@ export default function App() {
       <header>
         <NavbarTop />
         <Hero></Hero>
+
         {/* <SearchForm></SearchForm> */}
       </header>
       <main>
         <MainBodyText></MainBodyText>
-        {/* <FeaturedCarousel></FeaturedCarousel>
-        <div className='content__wrapper'>
-          {content}
-        </div> */}
+        <FeaturedCarousel></FeaturedCarousel>
+        <ContentAds />
       </main>
       <footer>
         {/* <FooterInfo></FooterInfo> */}
